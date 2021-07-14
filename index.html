@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>KM Portfolio</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <base target="_blank"> -->
+
+  <link rel="icon" href="public/images/grFav.ico">
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Shadows+Into+Light&family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Font Awsome -->
+  <script src="https://kit.fontawesome.com/9c31cf3810.js" crossorigin="anonymous"></script>
+
+  <link href="public/css/styles.css" rel="stylesheet">
+</head>
+
+<body onload="typeWriter()">
+
+
+  <section id="homeSection" >
+
+
+    <!--                    Navbar Section                -->
+    <div class="container-fluid">
+
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark shadow p-3">
+
+
+        <a class="navbar-brand" href="#"> <img src="public/images/growth.png" alt="Logo" width="35" height="35"> Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav ms-auto">
+            <li class="navbar-item">
+              <a class="nav-link" href="#aboutSection">About</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="#projectsSection">Projects</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="resume.html">Resume</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="#contactSection">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+
+      </nav>
+
+
+      <!--                    Home Page Section                -->
+
+      <div class="row home-container">
+        <div class="col-md-6 home-text">
+
+          <h1>I'm Karolina!</h1>
+          <p id="typing"></p>
+          <!-- <p>I have a desire to never stop learning...</p> -->
+          <a class="contact-me-btn" href="mailto:kmonnier@hotmail.com">Contact me</a>
+        </div>
+        <div class="col-md-6 home-img">
+          <img class="home-page-img" src="public/images/Laptop.jpg" alt="Laptop. Photo by Ales Nesetril" width="100%" />
+
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+
+
+
+  <!--                    About Section                -->
+  <section id="aboutSection">
+    <div class="container-fluid">
+
+      <h2 class="section-header">About</h2>
+
+      <div class="row">
+
+        <div class="col-md-5">
+          <img class="about-img img-fluid img-thumbnail" src="public/images/1bw.jpg" alt="Karolina Monnier" max-width="100%" height="auto" />
+        </div>
+
+        <div class="col-md-1">
+        </div>
+
+        <div class="about-text col-md-6">
+
+          <h2 class="top">
+            Raised in a beautiful town in Poland. Made England her home.
+          </h2>
+          <p class="bottom">
+            I’m Karolina Monnier, mum of two, a sociologist by education.
+            I discovered coding by accident and it was love at first sight.
+            Since then I have been coding every day.
+            Also, I’m a passionate gardener, who likes to make her hands dirty.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--                    Projects Section                -->
+  <section id="projectsSection">
+    <div class="container-fluid">
+      <h2 class="section-header">Projects</h2>
+    </div>
+
+    <div id="carouselCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="7000" data-bs-pause="hover">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="public/images/Newsletter.JPG" class="d-block w-100" alt="Newsletter">
+          <div class="carousel-caption d-none d-md-block project-info">
+            <h3>Newsletter Sign Up App</h3>
+            <p>The App is using Mailchimp API.</p>
+            <a href="https://gentle-cove-46147.herokuapp.com/">Website</a>
+          </div>
+          <a class="visit-site" href="https://gentle-cove-46147.herokuapp.com/">Visit Website</a>
+        </div>
+        <div class="carousel-item">
+          <img src="public/images/ToDoList.JPG" class="d-block w-100" alt="To Do List">
+          <div class="carousel-caption d-none d-md-block project-info">
+            <h3>To Do List App</h3>
+            <p>A Web App with MongoDB Database</p>
+            <a href="https://whispering-springs-49317.herokuapp.com/">Website</a>
+          </div>
+          <a class="visit-site" href="https://whispering-springs-49317.herokuapp.com/">Visit Website</a>
+        </div>
+        <div class="carousel-item">
+          <img src="public/images/NotesReact.JPG" class="d-block w-100" alt="Notes App">
+          <div class="carousel-caption d-none d-md-block project-info">
+            <h3>Notes App</h3>
+            <p>React App created in Sandbox</p>
+            <a href="https://qyoms.csb.app/">Website</a>
+          </div>
+          <a class="visit-site" href="https://qyoms.csb.app/">Visit Website</a>
+        </div>
+        <div class="carousel-item">
+          <img src="public/images/abstract.jpg" class="d-block w-100" alt="coming soon">
+          <div class="carousel-caption d-none d-md-block project-info">
+            <p>More projects</p>
+            <h2>COMING SOON</h2>
+          </div>
+          <h2 class="coming-soon">COMING SOON</h2>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+
+  <!--                    Contact Section                -->
+  <section id="contactSection">
+    <div class="container-fluid">
+      <!-- <h2 class="section-header">Contact</h2> -->
+      <div class="row">
+        <div class="col-md-6">
+          <p class="contact-message">
+            GET IN TOUCH
+            <br />SIMPLY
+            <br />TO
+            <br />SAY
+            <br /> <span style="color:#ff9933">HELLO!</span>
+          </p>
+
+        </div>
+        <div class="col-md-6 contact-details">
+          <p class="name">Karolina Monnier</p>
+          <p class="email">kmonnier@hotmail.com</p>
+          <!-- <a class="contact-me-btn" href="mailto:kmonnier@hotmail.com">Contact me</a> -->
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--                    Footer Section                -->
+  <footer>
+
+    <div>
+      <a class="footer-link" href="https://www.linkedin.com/in/karolina-monnier-6b42a0a0"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a class="footer-link" href="https://github.com/Kalmon22?tab=repositories"><i class="fab fa-github-square fa-2x"></i></a>
+      <a class="footer-link" href="https://twitter.com/KarolinaMonnier?s=07"><i class="fab fa-twitter-square fa-2x"></i></a>
+    </div>
+
+
+    <p id="footerPar"></p>
+  </footer>
+
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+
+</body>
+
+</html>

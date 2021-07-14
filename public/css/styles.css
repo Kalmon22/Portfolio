@@ -1,0 +1,345 @@
+body {
+  background-color: #e6e6e6;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Source Code Pro', monospace; */
+#homeSection {
+  background-color: black;
+}
+
+#aboutSection {
+  background-color: white;
+  padding: 7% 15%;
+}
+
+#projectsSection {
+  background-color: black;
+  color: white;
+  padding: 7% 0;
+}
+
+#contactSection {
+  background-color: #f2f2f2;
+  padding: 7% 15%;
+}
+
+#resume {
+  padding: 7% 12% 5%;
+}
+
+/*             ----Navbar Section-----         */
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-item {
+  padding: 0 15px;
+}
+
+/*             ----Home Section-----         */
+.home-container {
+  padding-top: 75px;
+}
+
+.home-text {
+  padding: 7% 0 0 15%;
+  color: #e6e6e6;
+}
+
+.home-text h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.home-text p {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.home-img {
+  padding: 0;
+  margin: 0;
+}
+
+.contact-me-btn {
+  border-radius: 40px;
+  font-size: 20px;
+  padding: 15px 30px;
+  background-color: #30475e;
+  border: solid #30475e 1px;
+  color: #f2f2f2;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 45px auto 10px;
+}
+
+.contact-me-btn:hover {
+  border: solid #ff9933 2px;
+  background: #30475e;
+  color: #ff9933;
+}
+
+/*             ----About Section-----         */
+.section-header {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.about-img {
+  width: 100%;
+  height: auto;
+}
+
+.about-text {
+  text-align: justify;
+}
+
+.top {
+  padding-bottom: 10px;
+  line-height: 1.7;
+}
+
+.bottom {
+  font-size: 1.5rem;
+  line-height: 1.7;
+}
+
+/*             ----Projects Section-----         */
+.carousel-item {
+  padding: 0 15%;
+}
+
+.project-info {
+  background-color: #e6e6e6;
+  color: black;
+}
+
+.project-info h3 {
+  color: #808080;
+}
+
+.project-info a {
+  text-decoration: none;
+  color: #808080;
+  font-size: 0.85rem;
+}
+
+.project-info a:hover {
+  text-decoration: underline;
+  color: #ff9933;
+}
+
+.visit-site {
+  display: none;
+}
+
+.coming-soon {
+  display: none;
+}
+
+/*             ----Contact Section-----         */
+.contact-message {
+  text-align: right;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.contact-details {
+  font-size: 1.5rem;
+  padding: 10% 0 0 7%;
+  font-family: 'Source Code Pro', monospace;
+  color: #30475e;
+}
+
+.email {
+  font-size: 1.2rem;
+}
+
+/*             ----Footer Section-----         */
+.footer-link {
+  text-decoration: none;
+  color: black;
+  margin: 20px 15px 10px;
+}
+
+.footer-link:hover {
+  color: #ff9933;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding-top: 1.5%;
+}
+
+footer p {
+  color: grey;
+  font-size: 0.75rem;
+  padding: 0.5% 0 1%;
+  margin-bottom: 0;
+}
+
+/*             ----RESUME-----         */
+.body-background {
+  background-image: linear-gradient(25deg, #000000 50%, #f2f2f2 50%);
+}
+
+.home-btn {
+  border-radius: 40px;
+  font-weight: 500;
+  padding: 15px;
+  color: #30475e;
+  border: solid #30475e 2px;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.home-btn:hover {
+  border: solid #ff9933 2px;
+  color: #ff9933;
+}
+
+.first-col {
+  background-color: white;
+  border-right: 1px solid #30475e;
+}
+
+.second-col {
+  background-color: white;
+}
+
+.padding-resume {
+  padding: 5%;
+}
+
+.orange-div {
+  background-color: orange;
+  width: 270px;
+  height: 360px;
+  position: relative;
+  margin: 24px auto 40px;
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  /* border-top: 20px solid orange;
+  border-left: 20px solid orange; */
+}
+
+.tomato-div {
+  color: #30475e;
+}
+
+.tomato {
+  font-size: 1.5em;
+  padding: 3px;
+}
+
+.profile {
+  /* padding: 5%; */
+}
+
+.profile p {
+  line-height: 2;
+  text-align: justify;
+}
+
+.skills {
+  /* padding: 5%; */
+  line-height: 2;
+}
+
+.skills span {
+  font-weight: 600;
+}
+
+.education {
+  /* padding: 5%; */
+}
+
+.career {
+  /* padding: 5%; */
+  line-height: 2;
+}
+
+.resume-header {
+  padding-bottom: 3%;
+}
+
+@media only screen and (max-width: 992px) {
+  .first-col {
+    border-right: none;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .visit-site {
+      display: block;
+      text-decoration: none;
+      color: #fff;
+      text-align: center;
+      padding-top: 10px;
+    }
+
+    .visit-site:hover {
+      text-decoration: underline;
+      color: #ff9933;
+    }
+
+    .coming-soon {
+      display: block;
+      text-decoration: none;
+      color: #fff;
+      text-align: center;
+      padding-top: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+
+    /* For mobile phones: */
+    #aboutSection {
+      padding: 7% 7%;
+    }
+
+    .about-text {
+      text-align: left;
+    }
+
+    #resume {
+      padding: 15% 7% 5%;
+    }
+
+    .padding-resume {
+      padding: 3%;
+    }
+
+    .home-btn span {
+      display: none;
+    }
+
+    .home-btn {
+      border-radius: 10px;
+      padding: 10px 17px;
+    }
+
+    .profile p {
+      text-align: left;
+    }
+  }
